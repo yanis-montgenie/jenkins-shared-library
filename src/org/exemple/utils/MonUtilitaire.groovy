@@ -7,6 +7,10 @@ class MonUtilitaire implements Serializable {
         script.echo "Modification partie 5 de , ${nom} !"
     }
 
+    static void partie5(script, nom) {
+        script.echo "Nouvelle méthode partie 5 de , ${nom} !"
+    }
+    
     static String genererMessage(String type) {
         if (type == "succes") {
             return "Opération réussie !"
